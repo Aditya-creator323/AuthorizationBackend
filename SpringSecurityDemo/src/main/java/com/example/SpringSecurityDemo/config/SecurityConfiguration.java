@@ -70,7 +70,7 @@ public class SecurityConfiguration {
         corsConfig.setAllowCredentials(true);
         corsConfig.setAllowedOrigins(Arrays.asList(
             "http://localhost:3000",
-            "https://authorization-react-spring-9efs6gozn.vercel.app"
+            "https://authorization-react-spring-45hyrvg9o.vercel.app"
         ));
         // corsConfig.addAllowedOrigin("http://localhost:3000"); // Allow requests from your React app
         corsConfig.addAllowedHeader("*"); // Allow all headers
